@@ -19,7 +19,7 @@ int main() {
             cout << "\033[32mTelefon odblokowany!\033[0m" << endl;
             return 0;
         } else {
-            proby++; // to do proby zmieniaja kolor po if coraz bardziej czerwony do 5 prob
+            proby++;
             switch(proby) {
                 case 1:
                     cout << "\033[32mNiepoprawny PIN. Pozostalo 4 proby.\033[0m" << endl;
